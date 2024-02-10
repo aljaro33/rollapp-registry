@@ -1,0 +1,33 @@
+{
+"chainId": "aljaro_7200497-1",
+  "chainName": "aljaro_7200497-1",
+  "rpc": "http:158.220.106.163:26657" ,
+  "rest": "http:158.220.106.163:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "alj",
+      "baseDenom": "ualj",
+      "decimals": 18,
+      "logo": "/logos/aljaro_7200497-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/aljaro_7200497-1.png",
+  "ibc": {
+    "hubChannel": "channel-9542",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x6ddef1",
+    "rpc": "http://158.220.106.163:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "",
+  "analytics": true
+}
